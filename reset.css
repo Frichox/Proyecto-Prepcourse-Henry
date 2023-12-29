@@ -1,0 +1,84 @@
+/* Reset CSS */
+
+/* Box sizing border-box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Establece márgenes y rellenos a 0 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+figure,
+ol,
+ul,
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normaliza la tipografía */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/* Elimina el espaciado vertical entre elementos en línea */
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+/* Normaliza la apariencia del botón y del enlace */
+button,
+a {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Elimina el estilo de lista en navegadores ul y ol */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Elimina el estilo de la lista de descripción en dl */
+dl {
+    margin: 0;
+}
+
+/* Normaliza la apariencia del subrayado del enlace */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina los bordes alrededor de los elementos en varios navegadores */
+button,
+input,
+select,
+textarea {
+    border: none;
+}
+
+
+/* Ajusta el tamaño máximo de la imagen al 100% para evitar desbordamientos */
+img {
+    max-width: 100%;
+    height: auto;
+}
